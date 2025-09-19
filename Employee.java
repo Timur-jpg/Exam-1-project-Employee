@@ -19,12 +19,12 @@ public class Employee{
         unpaidHours = 0.0;
     } 
     
-    // q11
+    // q11 
     // private string fullname;
         // }
             // getFullname = fullname
         // }
-        // private string name;
+        // private string name; 
         // }
             // setFullname = writeFullname
         // }
@@ -55,7 +55,7 @@ public class Employee{
      * Returns the net pay for the outstanding unpaid hours
      */
     private double calculatePay(){
-    // q13
+    // q13 
     // int salary = calculatePay();
     // Get Pay = hyWage x unpaindHours
     // Set PayAfterTaxes = 70% x pay
@@ -67,7 +67,7 @@ public class Employee{
      * Output the payment record and resets unpaid hours
      */
     public void paySalary(){
-        // q14
+        // q14  
         // Calculate Pay = Print Fullname + Salary
         // After pay = Reset to 0
     }
