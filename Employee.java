@@ -61,6 +61,10 @@ public class Employee{
     double netPay = grossPay * 0.7;               
     return netPay;
     }
+    
+    public void addUnpaidHours(double hours) {
+    unpaidHours += hours;
+    }
 
     /*
      * Output the payment record and resets unpaid hours
