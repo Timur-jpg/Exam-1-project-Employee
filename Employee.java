@@ -21,11 +21,11 @@ public class Employee{
     
     // Q11
     public String getFullname() {
-    return fullname;
+        return fullname;
     }
 
     public void setFullname(String fullname) {
-    this.fullname = fullname;
+        this.fullname = fullname;
     }
 
         
@@ -40,15 +40,16 @@ public class Employee{
      * Returns true is an employee is above 16 years old
      */
     public boolean canDrive(){
-        int age = calculateAge(2025);
-        // q12
-        // }
-          // if int age ≥ 16then 
-             // return = can drive
-          // else 
-             // return = 16 - age
-        // }
+    int age = 2025 - yearOfBirth;  
+    
+    if (age > 16) {
+        System.out.println(fullname + " can drive in Canada.");
         return true;
+    } else {
+        int yearsToWait = 16 - age;
+        System.out.println(fullname + " cannot drive yet. Needs to wait " + yearsToWait + " more year(s).");
+        return false;
+    }
     }
 
     /*
