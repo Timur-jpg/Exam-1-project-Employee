@@ -55,8 +55,8 @@ public class Employee{
     /*
      * Returns the net pay for the outstanding unpaid hours
      */
-    private double calculatePay(){
-    // q13 
+    private double calculatePay() {
+    // q13  
     double grossPay = hourlyWage * unpaidHours;   
     double netPay = grossPay * 0.7;               
     return netPay;
