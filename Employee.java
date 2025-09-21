@@ -57,11 +57,9 @@ public class Employee{
      */
     private double calculatePay(){
     // q13 
-    // int salary = calculatePay();
-    // Get Pay = hyWage x unpaindHours
-    // Set PayAfterTaxes = 70% x pa
-    // Total print = payAfterTaxes
-    return 0;
+    double grossPay = hourlyWage * unpaidHours;   
+    double netPay = grossPay * 0.7;               
+    return netPay;
     }
 
     /*
