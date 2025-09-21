@@ -70,8 +70,10 @@ public class Employee{
      * Output the payment record and resets unpaid hours
      */
     public void paySalary(){
-        // q14  
-        // Calculate Pay = Print Fullname + Salary
-        // After pay = Reset to 0
+        // q14 
+    double salary = calculatePay();
+    System.out.println(fullname + " has received a wire transfer of " + salary + " CAD.");
+    unpaidHours = 0.0;
+    
     }
 }
