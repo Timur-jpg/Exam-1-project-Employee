@@ -19,15 +19,15 @@ public class Employee{
         unpaidHours = 0.0;
     } 
     
-    // q11 
-    // private string fullname;
-        // }
-            // getFullname = fullname
-        // }
-        // private string name; 
-        // }
-            // setFullname = writeFullname
-        // }
+    // Q11
+    public String getFullname() {
+    return fullname;
+    }
+
+    public void setFullname(String fullname) {
+    this.fullname = fullname;
+    }
+
         
     /**
      * Returns true is an employee is above 16 years old
