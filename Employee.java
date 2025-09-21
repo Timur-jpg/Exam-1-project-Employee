@@ -59,7 +59,7 @@ public class Employee{
     // q13 
     // int salary = calculatePay();
     // Get Pay = hyWage x unpaindHours
-    // Set PayAfterTaxes = 70% x pay
+    // Set PayAfterTaxes = 70% x pa
     // Total print = payAfterTaxes
     return 0;
     }
